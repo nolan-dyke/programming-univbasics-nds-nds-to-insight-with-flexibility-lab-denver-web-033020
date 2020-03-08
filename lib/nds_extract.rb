@@ -114,7 +114,7 @@ def movies_with_directors_set(source)
     result << source[index][:movies]
     index += 1 
   end
-  result[0].unshift(){:director_name => "Byron Poodle"}
+  result[0].unshift({:director_name => "Byron Poodle"})
   result
 end
 
