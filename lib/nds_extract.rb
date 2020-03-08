@@ -120,7 +120,7 @@ def movies_with_directors_set(source)
   while result_index < result.length do 
     result[result_index].unshift({:director_name => source[source_index][:name]})
     result_index += 1 
-    source_index +=1 
+    source_index += 1 
   end 
   result
 end
