@@ -101,16 +101,6 @@ def movies_with_directors_set(source)
   result = []
   index = 0 
   while index < source.length do 
-    #inner_array = []
-    #inner_array << source[index][:movies]
-    #if index == 0 
-      #inner_array << {:director_name => "Byron Poodle"}
-      #inner_array << source[index][:movies]
-    #else 
-      #inner_array << {:director_name => source[index][:name]}
-      #inner_array << source[index][:movies]
-    #end 
-    #result << inner_array
     result << source[index][:movies]
     index += 1 
   end
